@@ -11,6 +11,12 @@ public class DmvSimulator {
         System.out.println("Your number is: " + randomNum);
         CountDown(randomNum);
         CountUp(randomNum);
+        
+        //chance
+        double chance = Math.random();
+        if(chance <= 0.01)
+        System.out.println("You have the required paper work!");
+        else if(chance > 0.01)
         System.out.println("You are stupid, get the right paper work next time. >:c");
     }
     public static void CountDown(int randomNum){
