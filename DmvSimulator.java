@@ -7,14 +7,14 @@ public class DmvSimulator {
         //Random number
         Random r = new Random();
         
-        int randomNum = r.nextInt((100 - 1) + 1) + 1;
+        int randomNum = r.nextInt((200 - 1) + 1) + 1;
         System.out.println("Your number is: " + randomNum);
         CountDown(randomNum);
         CountUp(randomNum);
         System.out.println("You dont have the required paper work!");
     }
     public static void CountDown(int randomNum){
-        for(int i = randomNum + 1; i <= 100; i++){
+        for(int i = randomNum + 1; i <= 200; i++){
            
             System.out.println(i);
         }
