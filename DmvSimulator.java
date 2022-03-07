@@ -11,7 +11,7 @@ public class DmvSimulator {
         System.out.println("Your number is: " + randomNum);
         CountDown(randomNum);
         CountUp(randomNum);
-        System.out.println("You dont have the required paper work!");
+        System.out.println("You are stupid, get the right paper work next time. >:c");
     }
     public static void CountDown(int randomNum){
         for(int i = randomNum + 1; i <= 100; i++){
